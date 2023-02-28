@@ -1,0 +1,82 @@
+[
+    {
+        "A/B Testing": "Website analytics software",
+        "good": [
+            "Get more conversions by seeing how users experience your site",
+            "Everything you ever wanted to know about your website......but your analytics never told you."
+        ],
+        "bad": "Conversion Rate Optimization tool"
+    },
+    {
+        "A/B Testing": "Email marketing automation platform",
+        "good": [
+            "Create email marketing your audience will love",
+            "Turn Emails into Revenue"
+        ],
+        "bad": "Email Marketing Tool"
+    },
+    {
+        "A/B Testing": "Email client for desktop",
+        "good": [
+            "Email made easy & beautiful",
+            "Make Email Easier."
+        ],
+        "bad": "We are the best email client."
+    },
+    {
+        "A/B Testing": "Cloud translation management",
+        "good": [
+            "The easy way to translate, manage, and collaborate",
+            "The localization platform built for growth"
+        ],
+        "bad": "We have the best software for translation"
+    },
+    {
+        "A/B Testing": "Cloud file sharing",
+        "good": [
+            "Collaborate better with secure, cloud based file sharing",
+            "Get more done without going anywhere - with cloud file sharing"
+        ],
+        "bad": "Cloud File Sharing Platform"
+    },
+    {
+        "A/B Testing": "Contact management",
+        "good": [
+            "Manage contacts easier with powerful automation tools",
+            "Stay in touch with your customers with automated tools"
+        ],
+        "bad": "Best contact management in the world"
+    },
+    {
+        "A/B Testing": "CRM software",
+        "good": [
+            "Make customer management easier with CRM",
+            "Deliver better customer service and smarter marketing"
+        ],
+        "bad": "The ultimate CRM software."
+    },
+    {
+        "A/B Testing": "Online payments platform",
+        "good": [
+            "Simplify payment processing with a cloud-based payment platform ",
+            "Get paid faster with the same payment processing power"
+        ],
+        "bad": "The most convenient payment platform"
+    },
+    {
+        "A/B Testing": "ERP software",
+        "good": [
+            "Automate business processes with ERP software",
+            "Streamline business processes with ERP software"
+        ],
+        "bad": "ERP System that provides complete solutions"
+    },
+    {
+        "A/B Testing": "Online Recruitment Platform",
+        "good": [
+            "Reach the right candidates quickly with an online recruitment platform",
+            "Streamline hiring with the right online recruitment platform"
+        ],
+        "bad": "Make hiring easier with online recruitment"
+    }
+]
