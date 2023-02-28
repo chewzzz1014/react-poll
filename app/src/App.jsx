@@ -20,7 +20,9 @@ function App() {
 
   return (
     <div className='w-screen h-screen flex justify-center items-center'>
-      {questionEle[currentIdx] || <h1 className='font-bold text-3xl'>Thank You!</h1>}
+      {questionEle[currentIdx] ||
+        <h1 className='font-bold text-3xl'>Thank You!</h1>
+      }
     </div>
   )
 }

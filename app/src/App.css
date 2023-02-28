@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.options {
+    gap: 1em;
+}

@@ -8,9 +8,9 @@ export default function Question({ question, handleBtnClick }) {
     const options = shuffle([...question.good, question.bad])
 
     return (
-        <div className='p-3 border-2 border-red-600'>
-            <h1 className='text-3xl text-center'><b>{question['A/B Testing']}</b></h1>
-            <div className='flex-col'>
+        <div className='p-3'>
+            <h1 className='mb-12 text-4xl text-center'><b>{question['A/B Testing']}</b></h1>
+            <div className='options flex'>
                 {options.slice(0, 2).map((o, idx) => <Option key={idx} text={o} isBad={o === badOption} handleBtnClick={handleBtnClick} />)}
             </div>
         </div>
