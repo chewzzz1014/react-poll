@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem('score', 0)
   }, [])
-  console.log(localStorage.getItem('score'))
+  console.log(`Current score: ${localStorage.getItem('score')}`)
 
   const [currentIdx, setCurrentIdx] = useState(0)
   const questionEle = questionData.map((ele, idx) => <Question key={idx} question={ele} handleBtnClick={handleBtnClick} />)
