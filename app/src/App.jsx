@@ -5,22 +5,25 @@ import Question from './components/Question'
 import questionData from './data/questions.json'
 
 function App() {
-  useEffect(() => {
-    localStorage.setItem('score', 0)
-  }, [])
-  console.log(`Current score: ${localStorage.getItem('score')}`)
+  const [data, setData] = useState({
+    idx: 0,
+    score: 0
+  })
+  console.log(`Current Score: ${data.score}`)
 
-  const [currentIdx, setCurrentIdx] = useState(0)
   const questionEle = questionData.map((ele, idx) => <Question key={idx} question={ele} handleBtnClick={handleBtnClick} />)
 
   function handleBtnClick(e, isBad) {
-    setCurrentIdx(currentIdx + 1)
-    !isBad ? localStorage.setItem('score', Number(localStorage.getItem('score')) + 1) : ''
+    const tmp = {
+      idx: data.idx + 1,
+      score: !isBad ? data.score + 1 : data.score
+    }
+    setData(tmp)
   }
 
   return (
     <div className='w-screen h-screen flex justify-center items-center'>
-      {questionEle[currentIdx] ||
+      {questionEle[data.idx] ||
         <h1 className='font-bold text-3xl'>Thank You!</h1>
       }
     </div>
