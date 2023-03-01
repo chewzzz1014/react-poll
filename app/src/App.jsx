@@ -11,7 +11,13 @@ function App() {
   })
   console.log(`Current Score: ${data.score}`)
 
-  const questionEle = questionData.map((ele, idx) => <Question key={idx} question={ele} handleBtnClick={handleBtnClick} />)
+  const questionEle = questionData.map((ele, idx) =>
+    <Question
+      key={idx}
+      question={ele}
+      handleBtnClick={handleBtnClick}
+    />
+  )
 
   function handleBtnClick(e, isBad) {
     const tmp = {
