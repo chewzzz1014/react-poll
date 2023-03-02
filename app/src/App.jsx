@@ -21,9 +21,9 @@ function App() {
     />
   )
 
-  async function handleBtnClick(e, questionId, isBad) {
+  async function handleBtnClick(e, questionId, optionId, isBad) {
     e.preventDefault()
-    updateScore(e, questionId, isBad)
+    updateScore(e, questionId, optionId, isBad)
     setCurrentIdx(currentIdx + 1)
   }
 
