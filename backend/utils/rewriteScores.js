@@ -7,19 +7,19 @@ async function rewriteScores() {
         const allQuestions = result.data
 
         const updatedAllQuestions = allQuestions.map((ele, idx) => {
-            const updatedGood = ele.good.map(g => {
+            const updatedOptions = ele.options.map(o => {
                 return {
-                    ...g,
+                    ...o,
                     score: 0
                 }
             })
             return {
                 ...ele,
-                good: updatedGood
+                options: updatedOptions
             }
         })
-        console.log(updatedAllQuestions)
-        await axios.patch(BASE_URL, {
+        //console.log(updatedAllQuestions)
+        await axios.put(BASE_URL, {
             ...updatedAllQuestions,
         }).then(() => console.log('Scores cleared!'))
 
