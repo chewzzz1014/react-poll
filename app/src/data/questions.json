@@ -13,7 +13,7 @@
                 "score": 0
             }
         ],
-        "bad": "Conversion Rate Optimization tool",
+        "bad": "Conversion Rate Optimization tool"
     },
     {
         "A/B Testing": "Email marketing automation platform",
@@ -29,8 +29,7 @@
                 "score": 0
             }
         ],
-        "bad": "Email Marketing Tool",
-        "score": 0
+        "bad": "Email Marketing Tool"
     },
     {
         "A/B Testing": "Email client for desktop",
@@ -46,8 +45,7 @@
                 "score": 0
             }
         ],
-        "bad": "We are the best email client.",
-        "score": 0
+        "bad": "We are the best email client."
     },
     {
         "A/B Testing": "Cloud translation management",
@@ -63,8 +61,7 @@
                 "score": 0
             }
         ],
-        "bad": "We have the best software for translation",
-        "score": 0
+        "bad": "We have the best software for translation"
     },
     {
         "A/B Testing": "Cloud file sharing",
@@ -80,8 +77,7 @@
                 "score": 0
             }
         ],
-        "bad": "Cloud File Sharing Platform",
-        "score": 0
+        "bad": "Cloud File Sharing Platform"
     },
     {
         "A/B Testing": "Contact management",
@@ -97,8 +93,7 @@
                 "score": 0
             }
         ],
-        "bad": "Best contact management in the world",
-        "score": 0
+        "bad": "Best contact management in the world"
     },
     {
         "A/B Testing": "CRM software",
@@ -114,8 +109,7 @@
                 "score": 0
             }
         ],
-        "bad": "The ultimate CRM software.",
-        "score": 0
+        "bad": "The ultimate CRM software."
     },
     {
         "A/B Testing": "Online payments platform",
@@ -131,8 +125,7 @@
                 "score": 0
             }
         ],
-        "bad": "The most convenient payment platform",
-        "score": 0
+        "bad": "The most convenient payment platform"
     },
     {
         "A/B Testing": "ERP software",
@@ -148,8 +141,7 @@
                 "score": 0
             }
         ],
-        "bad": "ERP System that provides complete solutions",
-        "score": 0
+        "bad": "ERP System that provides complete solutions"
     },
     {
         "A/B Testing": "Online Recruitment Platform",
@@ -165,7 +157,6 @@
                 "score": 0
             }
         ],
-        "bad": "Make hiring easier with online recruitment",
-        "score": 0
+        "bad": "Make hiring easier with online recruitment"
     }
 ]
