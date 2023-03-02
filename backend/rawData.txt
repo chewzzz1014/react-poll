@@ -1,0 +1,49 @@
+A/B Testing 1: Website analytics software
+Variant A: Get more conversions by seeing how users experience your site
+Variant B: Everything you ever wanted to know about your website......but your analytics never told you.
+Bad variant: Conversion Rate Optimization tool
+
+A/B Testing 2: Email marketing automation platform
+Variant A: Create email marketing your audience will love
+Variant B: Turn Emails into Revenue
+Bad variant: Email Marketing Tool 
+
+A/B Testing 3: Email client for desktop
+Variant A: Email made easy & beautiful
+Variant B: Make Email Easier.
+Bad variant: We are the best email client.
+
+A/B Testing 4: Cloud translation management
+Variant A: The easy way to translate, manage, and collaborate
+Variant B: The localization platform built for growth
+Bad variant: We have the best software for translation
+
+A/B Testing 5: Cloud file sharing
+Variant A: Collaborate better with secure, cloud based file sharing
+Variant B: Get more done without going anywhere - with cloud file sharing
+Bad variant: Cloud File Sharing Platform
+
+A/B Testing 6: Contact management
+Variant A: Manage contacts easier with powerful automation tools
+Variant B: Stay in touch with your customers with automated tools
+Bad variant: Best contact management in the world
+
+A/B Testing 7: CRM software
+Variant A: Make customer management easier with CRM
+Variant B: Deliver better customer service and smarter marketing
+Bad variant: The ultimate CRM software.
+
+A/B Testing 8: Online payments platform
+Variant A: Simplify payment processing with a cloud-based payment platform 
+Variant B: Get paid faster with the same payment processing power
+Bad variant: The most convenient payment platform
+
+A/B Testing 9: ERP software
+Variant A: Automate business processes with ERP software
+Variant B: Streamline business processes with ERP software
+Bad variant: ERP System that provides complete solutions
+
+A/B Testing 10: Online Recruitment Platform
+Variant A: Reach the right candidates quickly with an online recruitment platform
+Variant B: Streamline hiring with the right online recruitment platform
+Bad variant: Make hiring easier with online recruitment

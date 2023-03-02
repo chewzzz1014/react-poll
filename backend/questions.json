@@ -3,172 +3,242 @@
     {
       "id": 0,
       "A/B Testing": "Website analytics software",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Get more conversions by seeing how users experience your site",
-          "score": 1
+          "isBad": false,
+          "score": 0
         },
         {
           "id": 1,
           "text": "Everything you ever wanted to know about your website......but your analytics never told you.",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "Conversion Rate Optimization tool",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "Conversion Rate Optimization tool"
+      ]
     },
     {
       "id": 1,
       "A/B Testing": "Email marketing automation platform",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Create email marketing your audience will love",
+          "isBad": false,
           "score": 0
         },
         {
           "id": 1,
           "text": "Turn Emails into Revenue",
-          "score": 1
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "Email Marketing Tool",
+          "isBad": true,
+          "score": 0
         }
-      ],
-      "bad": "Email Marketing Tool"
+      ]
     },
     {
       "id": 2,
       "A/B Testing": "Email client for desktop",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Email made easy & beautiful",
-          "score": 1
+          "isBad": false,
+          "score": 0
         },
         {
           "id": 1,
           "text": "Make Email Easier.",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "We are the best email client.",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "We are the best email client."
+      ]
     },
     {
       "id": 3,
       "A/B Testing": "Cloud translation management",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "The easy way to translate, manage, and collaborate",
-          "score": 1
+          "isBad": false,
+          "score": 0
         },
         {
           "id": 1,
           "text": "The localization platform built for growth",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "We have the best software for translation",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "We have the best software for translation"
+      ]
     },
     {
       "id": 4,
       "A/B Testing": "Cloud file sharing",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Collaborate better with secure, cloud based file sharing",
+          "isBad": false,
           "score": 0
         },
         {
           "id": 1,
           "text": "Get more done without going anywhere - with cloud file sharing",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "Cloud File Sharing Platform",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "Cloud File Sharing Platform"
+      ]
     },
     {
       "id": 5,
       "A/B Testing": "Contact management",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Manage contacts easier with powerful automation tools",
+          "isBad": false,
           "score": 0
         },
         {
           "id": 1,
           "text": "Stay in touch with your customers with automated tools",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "Best contact management in the world",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "Best contact management in the world"
+      ]
     },
     {
       "id": 6,
       "A/B Testing": "CRM software",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Make customer management easier with CRM",
+          "isBad": false,
           "score": 0
         },
         {
           "id": 1,
           "text": "Deliver better customer service and smarter marketing",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "The ultimate CRM software.",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "The ultimate CRM software."
+      ]
     },
     {
       "id": 7,
       "A/B Testing": "Online payments platform",
-      "good": [
+      "options": [
         {
           "id": 0,
-          "text": "Simplify payment processing with a cloud-based payment platform ",
+          "text": "Simplify payment processing with a cloud-based payment platform",
+          "isBad": false,
           "score": 0
         },
         {
           "id": 1,
           "text": "Get paid faster with the same payment processing power",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "The most convenient payment platform",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "The most convenient payment platform"
+      ]
     },
     {
       "id": 8,
       "A/B Testing": "ERP software",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Automate business processes with ERP software",
+          "isBad": false,
           "score": 0
         },
         {
           "id": 1,
           "text": "Streamline business processes with ERP software",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "ERP System that provides complete solutions",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "ERP System that provides complete solutions"
+      ]
     },
     {
       "id": 9,
       "A/B Testing": "Online Recruitment Platform",
-      "good": [
+      "options": [
         {
           "id": 0,
           "text": "Reach the right candidates quickly with an online recruitment platform",
+          "isBad": false,
           "score": 0
         },
         {
           "id": 1,
           "text": "Streamline hiring with the right online recruitment platform",
+          "isBad": false,
+          "score": 0
+        },
+        {
+          "id": 2,
+          "text": "Make hiring easier with online recruitment",
+          "isBad": true,
           "score": 0
         }
-      ],
-      "bad": "Make hiring easier with online recruitment"
+      ]
     }
   ]
 }
