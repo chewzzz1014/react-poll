@@ -1,4 +1,5 @@
 const axios = require('axios')
+const fs = require('fs/promises')
 const { BASE_URL } = require('./config')
 
 async function rewriteScores() {
@@ -6,6 +7,7 @@ async function rewriteScores() {
         const result = await axios.get(BASE_URL)
         const allQuestions = result.data
 
+        console.log(result)
         const updatedAllQuestions = allQuestions.map((ele, idx) => {
             const updatedOptions = ele.options.map(o => {
                 return {
@@ -18,10 +20,11 @@ async function rewriteScores() {
                 options: updatedOptions
             }
         })
-        //console.log(updatedAllQuestions)
-        await axios.put(BASE_URL, {
-            ...updatedAllQuestions,
-        }).then(() => console.log('Scores cleared!'))
+        console.log(updatedAllQuestions)
+        // await axios.put(BASE_URL, {
+        //     questions: updatedAllQuestions
+        // }).then(() => console.log('Scores cleared!'))
+        await fs.writeFile('../test.json', JSON.stringify({ questions: updatedAllQuestions }, null, 2))
 
     } catch (error) {
         console.log(error)
