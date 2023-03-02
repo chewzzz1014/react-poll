@@ -20,12 +20,10 @@ export default async function updateScore(e, questionId, optionId, isBad) {
                 }
             })
 
-            //console.log(updatedGood)
             await axios.patch(url, {
                 ...oldData,
                 good: updatedGood
             }).then(() => console.log('Score updated!'))
-            // console.log(oldData)
         } else {
             return;
         }
