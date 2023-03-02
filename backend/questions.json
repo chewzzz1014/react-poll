@@ -8,13 +8,13 @@
           "id": 0,
           "text": "Get more conversions by seeing how users experience your site",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 1,
           "text": "Everything you ever wanted to know about your website......but your analytics never told you.",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 2,
@@ -44,7 +44,7 @@
           "id": 2,
           "text": "Email Marketing Tool",
           "isBad": true,
-          "score": 1
+          "score": 0
         }
       ]
     },
@@ -68,7 +68,7 @@
           "id": 2,
           "text": "We are the best email client.",
           "isBad": true,
-          "score": 1
+          "score": 0
         }
       ]
     },
@@ -92,7 +92,7 @@
           "id": 2,
           "text": "We have the best software for translation",
           "isBad": true,
-          "score": 1
+          "score": 0
         }
       ]
     },
@@ -110,7 +110,7 @@
           "id": 1,
           "text": "Get more done without going anywhere - with cloud file sharing",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 2,
@@ -128,7 +128,7 @@
           "id": 0,
           "text": "Manage contacts easier with powerful automation tools",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 1,
@@ -152,7 +152,7 @@
           "id": 0,
           "text": "Make customer management easier with CRM",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 1,
@@ -176,7 +176,7 @@
           "id": 0,
           "text": "Simplify payment processing with a cloud-based payment platform",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 1,
@@ -206,7 +206,7 @@
           "id": 1,
           "text": "Streamline business processes with ERP software",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 2,
@@ -224,7 +224,7 @@
           "id": 0,
           "text": "Reach the right candidates quickly with an online recruitment platform",
           "isBad": false,
-          "score": 1
+          "score": 0
         },
         {
           "id": 1,

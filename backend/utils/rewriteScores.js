@@ -24,7 +24,7 @@ async function rewriteScores() {
         // await axios.put(BASE_URL, {
         //     questions: updatedAllQuestions
         // }).then(() => console.log('Scores cleared!'))
-        await fs.writeFile('../test.json', JSON.stringify({ questions: updatedAllQuestions }, null, 2))
+        await fs.writeFile('../questions.json', JSON.stringify({ questions: updatedAllQuestions }, null, 2))
 
     } catch (error) {
         console.log(error)
