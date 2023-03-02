@@ -17,6 +17,7 @@ export default function Question({ question, handleBtnClick, questionId }) {
                     isBad={o === badOption}
                     handleBtnClick={handleBtnClick}
                     questionId={questionId}
+                    optionId={idx}
                 />
                 )}
             </div>

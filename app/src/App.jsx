@@ -1,20 +1,15 @@
 import { useState, useEffect } from 'react'
-
 import './App.css'
 import Question from './components/Question'
-import axios from 'axios'
+import updateScore from './controllers/updateScore'
+import fetchData from './controllers/fetchData'
 
 function App() {
   const [data, setData] = useState([])
   const [currentIdx, setCurrentIdx] = useState(0)
 
-  async function fetchData() {
-    const d = await axios.get('http://localhost:3000/questions')
-    setData(d.data)
-  }
-
   useEffect(() => {
-    fetchData()
+    fetchData(setData)
   }, [])
 
   const questionEle = data && data.map((ele, idx) =>
@@ -28,21 +23,7 @@ function App() {
 
   async function handleBtnClick(e, questionId, isBad) {
     e.preventDefault()
-
-    try {
-      if (!isBad) {
-        const url = `http://localhost:3000/questions/${questionId}`
-        const result = await axios.get(url)
-        const oldScore = result.data.score || 0
-
-        await axios.patch(url, {
-          score: oldScore + 1
-        }).then(() => console.log('Score updated!'))
-      }
-    } catch (e) {
-      console.log(e)
-    }
-
+    updateScore(e, questionId, isBad)
     setCurrentIdx(currentIdx + 1)
   }
 

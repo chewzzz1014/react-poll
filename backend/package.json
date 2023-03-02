@@ -5,14 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": ""
+    "dev": "json-server --watch questions.json"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.20"
-  },
-  "dependencies": {
-    "json-server": "^0.17.2"
   }
 }
